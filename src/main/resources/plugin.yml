@@ -1,0 +1,4 @@
+name: ObesityPlugin
+version: '${project.version}'
+main: com.github.aviationtwelve.obesityplugin.ObesityPlugin
+api-version: '1.20'
