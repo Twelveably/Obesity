@@ -21,17 +21,6 @@ public class CustomBlockConsumable implements Listener {
     private static final int INTERVAL = 15;
 
     @EventHandler
-    public void onPlayerItemConsume(PlayerItemConsumeEvent event) {
-        Player player = event.getPlayer();
-        UUID playerUUID = player.getUniqueId();
-        Material food = event.getItem().getType();
-
-        if (food.equals(Material.COOKED_BEEF)) {
-            // Your logic for consuming cooked beef
-        }
-    }
-
-    @EventHandler
     public void onInteract(PlayerInteractEvent event) {
         Player player = event.getPlayer();
         UUID playerUUID = player.getUniqueId();
